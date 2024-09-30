@@ -1,0 +1,62 @@
+body{
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+.container1{
+    width:350px;
+    background :radial-gradient(white, rgb(134, 231, 134));
+    margin: 0px auto;
+}
+
+.mainSearchSection{
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+.searchSecton{
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.inputCityName{
+    border:none;
+    outline: none;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+.btn1{
+    box-shadow: 2px 2px 5px black;
+    padding: 5px 0px;
+    margin: 0px 5px;
+}
+.btn1:active{
+    color:white;
+    background :linear-gradient(rgb(134, 231, 134) , white);
+    font-weight: 600;
+}
+.imgSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+}
+.imgSection img{
+    width: 98%;
+    background :radial-gradient(white, rgb(134, 231, 134));
+    margin: 15px auto;
+    border-radius: 5px;
+}
+.imageText{
+    text-align: center;
+}
+.imgSection .imageText{
+    position: absolute;
+    top:65%;
+    
+}
